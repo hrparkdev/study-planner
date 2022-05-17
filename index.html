@@ -14,6 +14,76 @@
       <h1 class="page-title">STUDY PLANNER</h1>
     </a>
   </header>
+
+  <main class="content">
+    <section class="planner-section">
+      <article class="date-container">
+        <h2 class="date"></h2>
+      </article>
+      <article class="plan-container">
+        <form id="plan-form">
+          <input type="text" class="plan-input" placeholder="Enter your plan." required />
+        </form>
+        <ul id="plan-list"></ul>
+      </article>
+    </section>
+
+    <aside>
+      <section class="map-section">
+        <p class="map-description">Choose the music you want.</p>
+        <ul class="maps-list">
+          <li class="map-item">
+            <img src="./images/icons/break.png" alt="break" />
+          </li>
+          <li class="map-item">
+            <img src="./images/icons/forest.png" alt="forest" />
+          </li>
+          <li class="map-item">
+            <img src="./images/icons/freedom.png" alt="freedom" />
+          </li>
+          <li class="map-item">
+            <img src="./images/icons/morning.png" alt="morning" />
+          </li>
+        </ul>
+      </section>
+
+      <section class="device-section">
+        <article class="timer-container">
+          <div id="clock">00:00:00</div>
+          <form class="time-form">
+            <div class="time">
+              <input type="number" id="hours" class="hours-input time-input" value="0" min="0" max="23" />
+              <label for="hours">hours</label>
+            </div>
+            <div class="time">
+              <input type="number" id="minutes" class="minutes-input time-input" value="15" min="0" max="59" />
+              <label for="minutes">minutes</label>
+            </div>
+            <div class="time">
+              <input type="number" id="seconds" class="seconds-input time-input" value="0" min="0" max="59" />
+              <label for="seconds">seconds</label>
+            </div>
+            <div class="play-btn-wrapper">
+              <button type="submit" id="play" class="play-btn">
+                <i class="fa-solid fa-play"></i>
+              </button>
+            </div>
+          </form>
+        </article>
+        <article class="music-container">
+          <div class="album-cover">
+            <img src="./images/covers/break.jpg" alt="break" class="cover-img" />
+          </div>
+          <div class="music-info">
+            <h3 class="music-title">break</h3>
+          </div>
+          <audio id="audio"></audio>
+        </article>
+      </section>
+    </aside>
+  </main>
+
+  <script src="https://kit.fontawesome.com/f27b4e911e.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
