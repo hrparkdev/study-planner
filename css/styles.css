@@ -26,3 +26,65 @@ a {
   font-size: 50px;
   font-weight: bold;
 }
+
+.content {
+  display: flex;
+  max-width: 1250px;
+  border: 10px solid var(--main-color);
+  padding: 50px 0;
+  margin: auto;
+  background-color: rgb(240, 248, 255);
+}
+
+.content .planner-section {
+  flex-basis: 75%;
+  padding: 20px 40px;
+}
+
+.planner-section .date-container .date {
+  font-size: 38px;
+}
+
+.planner-section .plan-container {
+  margin-top: 40px;
+}
+
+.planner-section .plan-container #plan-form {
+  max-width: 100%;
+}
+
+.planner-section .plan-container #plan-form .plan-input {
+  width: 100%;
+  text-align: center;
+  border: none;
+  font-size: 30px;
+  padding: 20px 40px;
+  border-radius: var(--border-radius);
+}
+
+.planner-section .plan-container #plan-list li {
+  background-color: var(--main-color);
+  border-radius: var(--border-radius);
+  margin-top: 16px;
+  padding: 20px 40px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: var(--box-shadow);
+}
+
+.planner-section .plan-container #plan-list li button {
+  margin-left: 6px;
+  padding: 8px;
+  border-radius: 50%;
+  border: var(--white-border);
+  box-shadow: var(--box-shadow);
+} 
+
+.planner-section .plan-container #plan-list li button:hover {
+  background-color: var(--hover-color);
+  cursor: pointer;
+  box-shadow: var(--hover-box-shadow);
+}
