@@ -136,3 +136,92 @@ a {
   height: auto;
   border-radius: 50%;
 }
+
+.music-timer-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.music-timer-section .timer-container {
+  background-color: var(--side-color);
+  padding: 20px;
+  text-align: center;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.music-timer-section .timer-container #clock {
+  font-size: 36px;
+}
+
+.music-timer-section .timer-container .time-form {
+  margin-top: 20px;
+  padding: 20px 30px;
+  background-color: var(--main-color);
+  border-radius: 40px;
+}
+
+.music-timer-section .timer-container .time-form .time {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+}
+
+.music-timer-section .timer-container .time-form .time .time-input {
+  margin-right: 6px;
+  width: 50px;
+  height: 32px;
+  border: none;
+  border-radius: 3px;
+}
+
+.music-timer-section .timer-container .time-form .play-btn-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.music-timer-section .timer-container .time-form .play-btn-wrapper .play-btn {
+  border: var(--white-border);
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: inherit;
+  color: var(--white);
+  padding: 20px;
+  box-shadow: var(--box-shadow);
+}
+
+.music-timer-section .timer-container .time-form .play-btn-wrapper .play-btn:hover {
+  box-shadow: var(--hover-box-shadow)
+}
+
+.music-timer-section .music-container {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: var(--side-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.music-timer-section .music-container .album-cover {
+  max-width: 240px;
+}
+
+.music-timer-section .music-container .album-cover .cover-img {
+  max-width: 100%;
+  height: auto;
+} 
+
+.music-timer-section .music-container .music-info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.music-timer-section .music-container .music-info .music-title {
+  font-size: 22px;
+}
