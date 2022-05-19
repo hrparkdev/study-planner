@@ -234,3 +234,44 @@ footer {
 .hidden {
   display: none;
 }
+
+@media only screen and (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .content aside {
+    margin: 0;
+    border-left: none;
+    border-top: var(--side-border);
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .page-header {
+    padding-bottom: 20px;
+  }
+
+  .page-header .page-title {
+    font-size: 24px;
+  }
+
+  .content {
+    padding: 10px;
+  }
+
+  .planner-section .date-container .date,
+  .planner-section .plan-container #plan-form .plan-input,
+  .map-section .map-description {
+    font-size: 16px;
+  }
+
+  .planner-section .plan-container {
+    margin-top: 20px;
+  }
+
+  .planner-section .plan-container #plan-list li,
+  .planner-section .plan-container #plan-list li button {
+    font-size: 13px;
+  }
+}
