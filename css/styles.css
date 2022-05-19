@@ -88,3 +88,51 @@ a {
   cursor: pointer;
   box-shadow: var(--hover-box-shadow);
 }
+
+.content aside {
+  flex-basis: 25%;
+  padding: 20px;
+  border-left: var(--side-border);
+}
+
+.map-section {
+  width: 100%;
+  text-align: center;
+}
+
+.map-section .map-description {
+  font-size: 28px;
+}
+
+.map-section .maps-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 160px;
+  margin: 20px 0;
+}
+
+.map-section .maps-list .map-item {
+  margin: 14px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--side-color);
+  border: var(--white-border);
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+}
+
+.map-section .maps-list .map-item:hover {
+  background-color: var(--hover-color);
+  box-shadow: var(--hover-box-shadow)
+}
+
+.map-section .maps-list .map-item img {
+  object-fit: contain;
+  max-width: 60px;
+  height: auto;
+  border-radius: 50%;
+}
