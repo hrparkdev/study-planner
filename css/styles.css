@@ -239,6 +239,11 @@ footer {
   display: none;
 }
 
+.plan-icon-btn {
+  max-width: 16px;
+  height: auto;
+}
+
 @media only screen and (max-width: 768px) {
   .content {
     flex-direction: column;
