@@ -76,11 +76,14 @@ a {
 }
 
 .planner-section .plan-container #plan-list li button {
-  margin-left: 6px;
-  padding: 8px;
+  margin-left: 8px;
+  padding: 10px;
   border-radius: 50%;
   border: var(--white-border);
   box-shadow: var(--box-shadow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 } 
 
 .planner-section .plan-container #plan-list li button:hover {
