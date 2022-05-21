@@ -274,8 +274,7 @@ footer {
     margin-top: 20px;
   }
 
-  .planner-section .plan-container #plan-list li,
-  .planner-section .plan-container #plan-list li button {
+  .planner-section .plan-container #plan-list li {
     font-size: 13px;
   }
 }
