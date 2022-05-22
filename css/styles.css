@@ -110,11 +110,11 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 } 
 
 .planner-section .plan-container #plan-list li button:hover {
   background-color: var(--hover-color);
-  cursor: pointer;
   box-shadow: var(--hover-box-shadow);
 }
 
