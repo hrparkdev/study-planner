@@ -142,7 +142,7 @@ a {
   margin: 20px 0;
 }
 
-.map-section .map-list .map-item {
+.map-section .map-list .map {
   margin: 14px;
   padding: 20px;
   display: flex;
@@ -154,12 +154,12 @@ a {
   box-shadow: var(--box-shadow);
 }
 
-.map-section .map-list .map-item:hover {
+.map-section .map-list .map:hover {
   background-color: var(--hover-color);
   box-shadow: var(--hover-box-shadow)
 }
 
-.map-section .map-list .map-item img {
+.map-section .map-list .map img {
   object-fit: contain;
   max-width: 60px;
   height: auto;
