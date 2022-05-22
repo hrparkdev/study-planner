@@ -50,7 +50,11 @@ a {
 }
 
 .planner-section .plan-container #plan-form {
-  max-width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 100%; */
 }
 
 .planner-section .plan-container #plan-form .plan-input {
@@ -64,6 +68,24 @@ a {
 
 .planner-section .plan-container #plan-form .plan-input::placeholder {
   color: var(--side-color);
+}
+
+.planner-section .plan-container #plan-form .plan-submit-btn {
+  position: absolute;
+  right: 16px;
+  border: var(--white-border);
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: var(--side-color);
+  color: var(--white);
+  padding: 14px;
+  box-shadow: var(--box-shadow);
+  
+}
+
+.planner-section .plan-container #plan-form .plan-submit-btn:hover {
+  background-color: var(--hover-color);
+  box-shadow: var(--hover-box-shadow);
 }
 
 .planner-section .plan-container #plan-list li {
