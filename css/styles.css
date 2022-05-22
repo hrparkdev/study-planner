@@ -62,6 +62,10 @@ a {
   border-radius: var(--border-radius);
 }
 
+.planner-section .plan-container #plan-form .plan-input::placeholder {
+  color: var(--side-color);
+}
+
 .planner-section .plan-container #plan-list li {
   background-color: var(--main-color);
   border-radius: var(--border-radius);
