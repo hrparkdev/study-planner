@@ -9,7 +9,7 @@
 body {
   font-family: 'Lato', sans-serif;
   height: 100vh;
-  background: linear-gradient(to right, rgb(217, 228, 228), rgb(204, 233, 232), rgb(125, 178, 178));
+  background-color: rgb(249,250,251);
 }
 
 a {
