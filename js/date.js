@@ -1,5 +1,5 @@
 const date = document.querySelector(".date");
-const dayArray = ["일", "월", "화", "수", "목", "금", "토"];
+const dayArray = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
 const today = new Date();
 const todayYear = today.getFullYear();
