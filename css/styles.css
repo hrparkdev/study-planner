@@ -34,6 +34,7 @@ a {
   border: 10px solid var(--main-color);
   padding: 50px 0;
   margin: auto;
+  border-radius: 50px;
 }
 
 .content .planner-section {
