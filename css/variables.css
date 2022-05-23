@@ -1,6 +1,6 @@
 :root {
   --main-color: rgba(200, 227, 249, 0.88);
-  --side-color: rgb(231,242,252);
+  --side-color: rgb(231, 242, 252);
   --hover-color: rgba(208, 208, 208, 0.795);
   --white: rgb(255, 255, 255);
   --white-border: 1px solid var(--white);
