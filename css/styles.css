@@ -25,6 +25,7 @@ a {
 .page-header .page-title {
   font-size: 50px;
   font-weight: bold;
+  color: rgba(166, 209, 244, 0.88);
 }
 
 .content {
@@ -33,7 +34,6 @@ a {
   border: 10px solid var(--main-color);
   padding: 50px 0;
   margin: auto;
-  background-color: rgb(238, 245, 243);
 }
 
 .content .planner-section {
@@ -54,7 +54,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* max-width: 100%; */
 }
 
 .planner-section .plan-container #plan-form .plan-input {
@@ -67,7 +66,7 @@ a {
 }
 
 .planner-section .plan-container #plan-form .plan-input::placeholder {
-  color: var(--side-color);
+  color: var(--main-color);
 }
 
 .planner-section .plan-container #plan-form .plan-submit-btn {
@@ -76,11 +75,10 @@ a {
   border: var(--white-border);
   border-radius: 50%;
   cursor: pointer;
-  background-color: var(--side-color);
+  background-color: var(--main-color);
   color: var(--white);
   padding: 14px;
   box-shadow: var(--box-shadow);
-  
 }
 
 .planner-section .plan-container #plan-form .plan-submit-btn:hover {
