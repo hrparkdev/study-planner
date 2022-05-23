@@ -9,7 +9,7 @@
 body {
   font-family: 'Lato', sans-serif;
   height: 100vh;
-  background-color: rgb(249, 250, 251);
+  background-color: var(--side-color);
 }
 
 a {
