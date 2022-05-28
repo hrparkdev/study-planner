@@ -45,7 +45,7 @@ a {
 }
 
 .planner-section .date-container .date {
-  font-size: 38px;
+  font-size: 32px;
 }
 
 .planner-section .plan-container {
@@ -93,7 +93,7 @@ a {
   background-color: var(--main-color);
   border-radius: var(--border-radius);
   margin-top: 16px;
-  padding: 20px 40px;
+  padding: 20px;
   font-size: 24px;
   display: flex;
   justify-content: center;
@@ -103,7 +103,7 @@ a {
 }
 
 .planner-section .plan-container #plan-list li input {
-  margin-left: 8px;
+  margin-left: 14px;
   max-width: 20px;
   height: auto;
   box-shadow: var(--box-shadow);
@@ -125,7 +125,7 @@ a {
 }
 
 .map-section .map-description {
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .map-section .map-list {
@@ -138,7 +138,7 @@ a {
 }
 
 .map-section .map-list .map {
-  margin: 14px;
+  margin: 10px;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -155,10 +155,8 @@ a {
 }
 
 .map-section .map-list .map img {
-  object-fit: contain;
-  max-width: 60px;
+  max-width: 50px;
   height: auto;
-  border-radius: 50%;
 }
 
 .music-timer-section {
@@ -167,11 +165,11 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   padding: 0 20px;
 }
 
 .music-timer-section .timer-container {
+  max-width: 230px;
   background-color: var(--side-color);
   padding: 20px;
   text-align: center;
@@ -180,10 +178,11 @@ a {
 }
 
 .music-timer-section .timer-container #clock {
-  font-size: 36px;
+  font-size: 28px;
 }
 
 .music-timer-section .timer-container .time-form {
+  max-width: 100%;
   margin-top: 20px;
   padding: 20px 30px;
   background-color: var(--main-color);
@@ -194,13 +193,13 @@ a {
   margin-top: 10px;
   display: flex;
   align-items: center;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .music-timer-section .timer-container .time-form .time .time-input {
   margin-right: 6px;
-  width: 50px;
-  height: 32px;
+  max-width: 42px;
+  min-height: 30px;
   border: none;
   border-radius: 3px;
 }
@@ -216,7 +215,7 @@ a {
   cursor: pointer;
   background-color: inherit;
   color: var(--white);
-  padding: 20px;
+  padding: 16px;
   box-shadow: var(--box-shadow);
 }
 
@@ -225,6 +224,7 @@ a {
 }
 
 .music-timer-section .music-container {
+  max-width: 210px;
   margin-top: 30px;
   padding: 20px;
   background-color: var(--side-color);
@@ -233,7 +233,7 @@ a {
 }
 
 .music-timer-section .music-container .album-cover {
-  max-width: 240px;
+  max-width: 100%;
 }
 
 .music-timer-section .music-container .album-cover .cover-img {
@@ -248,7 +248,7 @@ a {
 }
 
 .music-timer-section .music-container .music-info .music-title {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 footer {
@@ -287,15 +287,33 @@ footer {
 
   .planner-section .date-container .date,
   .planner-section .plan-container #plan-form .plan-input,
-  .map-section .map-description {
+  .map-section .map-description,
+  .music-timer-section .timer-container #clock {
     font-size: 16px;
   }
+
+  .planner-section .plan-container #plan-form .plan-submit-btn {
+    padding: 8px;
+  }
+
+  .planner-section .plan-container #plan-list li input {
+    max-width: 12px;
+  } 
 
   .planner-section .plan-container {
     margin-top: 20px;
   }
 
-  .planner-section .plan-container #plan-list li {
+  .planner-section .plan-container #plan-list li,
+  .music-timer-section .timer-container .time-form .time {
     font-size: 13px;
+  }
+
+  .map-section .map-list .map img {
+    max-width: 40px;
+  }
+  
+  .music-timer-section .music-container {
+    max-width: 190px;
   }
 }
