@@ -27,12 +27,10 @@ function deletePlan(event) {
 }
 
 function createPlanBtn(iconName) {
-  const button = document.createElement("button");
-  const image = document.createElement("img");
-  image.src = `../images/icons/${iconName}.png`;
-  image.alt = `${iconName}`;
-  image.classList.add("plan-icon-btn");
-  button.appendChild(image);
+  const button = document.createElement("input");
+  button.type = "image";
+  button.src = `../images/icons/${iconName}.png`;
+  button.alt = `${iconName}`;
   if (iconName === "update") {
     button.addEventListener("click", updatePlan);
   } else {
