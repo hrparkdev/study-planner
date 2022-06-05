@@ -2,7 +2,7 @@
 
 ## 🌎 Website: https://my-study-planner.netlify.app/
 
-<img src="https://user-images.githubusercontent.com/91646438/171308564-42f3e3ee-81d7-4350-925c-552a48d8d572.png width="400" height="400"/>
+![image](https://user-images.githubusercontent.com/91646438/172052043-ad896f98-eb37-4792-ae5f-1f71a3d7a717.png)
 
 ## 💡 Topic
 
