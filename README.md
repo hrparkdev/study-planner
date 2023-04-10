@@ -14,7 +14,6 @@
 
 주요 기능에 대해 간략하게 설명드리겠습니다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/db4a1f7d-a5bf-465b-b38a-5d4f34ae5890/Untitled.png)
 
 - **날짜**
     - `Date()` **-** `Date`객체는 1970년 1월 1일 UTC(국제표준시) 자정으로부터 지난 시간을 밀리초로 나타냅니다.
@@ -26,8 +25,6 @@
     
 ---
     
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a2af98a6-a6b5-4f57-8f14-c1f12123f8f4/Untitled.png)
 
 - **계획 생성, 수정, 삭제 기능**
     - **생성**
@@ -49,12 +46,6 @@
 ---
         
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/379808fe-e925-406b-b1f2-a075309338dd/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/02b7a291-62d3-41e3-b3a5-a400bd857a43/Untitled.png)
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1820d43d-0c16-4140-bd6a-8717602888c7/Untitled.png)
-
 - **음악 타이머**
     - 유저가 음악을 선택하고, 타이머를 설정한 후 재생 버튼을 클릭하거나 Enter를 누르면 timeForm에서 `submit`이벤트가 발생하여 화살표 함수가 실행됩니다. 화살표 함수에서는
         - 첫째, `initTime`함수를 호출해 `hoursInput`, `minutesInput`, `secondsInput`안에 있는 값들을 가져와 모두 초로 바꾸어 `soundTime`에 더해 줍니다.
@@ -65,9 +56,6 @@
     
 ---
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/721754e5-b2cf-4937-aa05-f760b6cdfce3/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fc817bf3-1f1a-4706-8aa4-56096a8033a1/Untitled.png)
     
 - **반응형 웹**
 
