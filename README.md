@@ -24,7 +24,7 @@
     - `Date.prototype.getDay()` **-** 주어진 날짜의 현지 시간 기준 요일을 반환합니다.
     - `String.prototype.padStart()` **-** 10미만은 1자리이기 때문에 2자리로 맞추기 위해 사용했고, 좌측에 string “0”으로 채워 넣었습니다.
     
-    ---
+---
     
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a2af98a6-a6b5-4f57-8f14-c1f12123f8f4/Untitled.png)
@@ -46,7 +46,7 @@
         
         `li.remove()` 로 `DOM`에서 요소를 제거합니다. `filter()` 메서드로 plans 안의 각 plan `id`와 `li`의 `id`가 일치하지 않는 모든 plan들을 모아 새로운 배열로 반환하여 plans에 할당합니다. 그 후, `savePlan` 함수를 호출하여 `localStorage`에 plans를 다시 저장하면 됩니다.
         
-        ---
+---
         
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/379808fe-e925-406b-b1f2-a075309338dd/Untitled.png)
@@ -63,7 +63,7 @@
         - 넷째,  `setInterval()`로 1초마다 `soundTime` 을 각각 시간, 분, 초로 바꾸어 `formetText`함수를 호출해 인자로 `getHours`, `getMinutes`, `getSeconds`를 전달합니다. `formetText` 함수에서는 전달받은 매개변수로 유저에게 타이머 시간을 보여줍니다. `soundTime` 이 0이 아니라면 `soundTime` 에서 1씩 빼줍니다.
     - 타이머가 끝나면 `stopSound` 함수가 호출되고, `clearInterval()` 로 매개변수에 `timerId`를 넣어 타이머를 취소해 줍니다. 그 후, 유저에게 “Finish🎉” text를 보여줍니다.
     
-    ---
+---
     
     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/721754e5-b2cf-4937-aa05-f760b6cdfce3/Untitled.png)
     
@@ -79,6 +79,8 @@
 - `localStorage`를 활용하여 브라우저에 `key-value`를 저장하는 방법에 대해 알게 되었습니다.
 - `setInterval()` 로 일정 시간마다 함수를 실행하는 방법과,  설정한 `setInterval()`을 `clearInterval()`로 취소하는 방법에 대해 알게 되었습니다.
 - `src`, `volume`, `loop`, `play()`, `pause()`, `currentTime` 을 사용하여 JavaScript에서 `audio`를 다루는 방법에 대해 알게 되었습니다.
+
+---
 
 ## 🛠 Tech Stack
 - HTML5
